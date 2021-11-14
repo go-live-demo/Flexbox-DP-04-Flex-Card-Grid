@@ -1,0 +1,30 @@
+.container {
+  padding: 0 2em;
+  max-width: 90rem;
+}
+
+.card {
+  width: 300px;
+  border: 3px solid black;
+  padding: 2rem;
+  text-align: center;
+}
+
+.card img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin: 0 auto 1em;
+}
+
+.flex-grid {
+  display: flex;
+  justify-self: center;
+  flex-wrap: wrap;
+  gap: 1em;
+}
+
+.flex-grid > * {
+  flex-grow: 1;
+}
